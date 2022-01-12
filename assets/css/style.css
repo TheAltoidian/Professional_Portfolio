@@ -61,10 +61,18 @@ header nav ul li a {
     padding: 10px;
 }
 
-/* .part h3 {
+.part .first_project {
     display: flex;
+    flex-direction: column;
+    width: 30%;
 }
 
-.part p {
+.part .future_project {
     display: flex;
-} */
+    flex-direction: column;
+    width: 15%;
+}
+
+.part div p {
+    text-align: center;
+}
