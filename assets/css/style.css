@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
     /* box-sizing: border-box; */
+    font-family: sans-serif;
 }
 
 :root {
-    --color1: grey;
-    --color2: #55cdfc;
+    --color2: grey;
+    --color1: #55cdfc;
 }
 
 header {
@@ -45,11 +46,6 @@ header nav ul li a {
 }
 
 /* Hero Style */
-/* .hero {
-    background-image: url("../images/snitch\ full.jpg");
-    background-size: cover;
-    background-position: center;
-} */
 
 .hero img {
     display: block;
@@ -60,3 +56,15 @@ header nav ul li a {
 .hero h2 {
     text-align: center;
 }
+
+.part {
+    padding: 10px;
+}
+
+/* .part h3 {
+    display: flex;
+}
+
+.part p {
+    display: flex;
+} */
