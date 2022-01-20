@@ -64,13 +64,22 @@ header nav ul li a {
 .part .first_project {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 50%;
+}
+.part .first_project img{
+
+    max-width: 80%;
+    max-height: 80%;
 }
 
 .part .future_project {
     display: flex;
     flex-direction: column;
-    width: 15%;
+    /* width: 15%; */
+}
+.part .future_project img{
+    max-width: 25%;
+    /* max-height: 75%; */
 }
 
 .part div p {
