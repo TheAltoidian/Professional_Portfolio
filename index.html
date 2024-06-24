@@ -6,14 +6,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cullen's Portfolio</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
-        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
     <!-- navigation -->
-    <nav class="navbar bg-info">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Cullen Casey</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Past Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Me</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <!-- <nav class="navbar bg-info">
         <h1>
             <a href="#" class="nav-link text-white">Cullen Casey</a>
         </h1>
@@ -28,16 +51,46 @@
                 <a href="#Contact_Me" class="nav-link text-white"><strong>Contact Me</strong></a>
             </li>
         </ul>
-    </nav>
+    </nav> -->
 
     <!-- Hero -->
-    <br>
+    <!-- <header class="d-flex flex-column flex-md-row align-items-md-center p-5 bg-light">
+        <div class="pt-md-3 pb-md-4">
+            <h1 class="bd-title mt-0">Examples</h1>
+            <p class="bd-lead">Quickly get a project started with any of our examples ranging from using parts of the
+                framework to custom components and layouts.</p>
+            <a href="https://github.com/twbs/bootstrap/archive/v4.0.0.zip" class="btn btn-lg btn-bd-primary"
+                onclick="ga('send', 'event', 'Examples', 'Hero', 'Download');">Download source code</a>
+        </div>
+        <script async="" src="https://cdn.carbonads.com/carbon.js?serve=CKYIKKJL&amp;placement=getbootstrapcom"
+            id="_carbonads_js"></script> -->
+    <div>
+        <div class="container">
+            <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+                <h1 class="display-4">About Me</h1>
+                <p class="lead">Cullen studied at University of California, Irvine, for 4 years and earned a degree in
+                    Political
+                    Science.
+                    Afterwards, he earned a Certificate as a full stack web developer through UC Berkley Extension to
+                    develop
+                    programming skills, and is looking for a job where to further expand what he has learned. In his
+                    free
+                    time,
+                    he likes to think of simple websites to create and share with friends for fun, both as a joke, and
+                    to
+                    serve
+                    practical purposes.</p>
+            </div>
+        </div>
+    </div>
+    </header>
+    <!-- <br>
     <section class="text-center">
         <h2 class="text-center">A working presentation of my accomplishments as a web developer</h2>
     </section>
-    <br>
+    <br> -->
     <!-- About Me -->
-    <section id="Cullen" class="text-center container">
+    <!-- <section id="Cullen" class="text-center container">
         <h3>Cullen</h3>
         <p>
             Cullen studied at University of California, Irvine, for 4 years and earned a degree in Political Science.
@@ -48,54 +101,66 @@
 
 
         </p>
-    </section>
+    </section> -->
     <br>
 
+
     <!-- Past Work -->
-    <section id="Past_Work" class="container text-center">
-        <h3>Past Work</h3>
-        <br>
-        <div class="col-6 mx-auto">
-            <a href="https://github.com/TheAltoidian/snake" target="_blank">
-                <img src="assets/media/snake-game.png" alt="In browser Snake game" class="img-thumbnail" />
-                Snake </a>
-        </div>
-        <br>
-        <div class="col-6 mx-auto">
-            <a href="https://github.com/smendoza94/rpg-game" target="_blank">
-                <img src="assets/media/RPG-Game.png" alt="a screenshot of the RPG-Game page" class="img-thumbnail" />
-                RPG Game</a>
-        </div>
-        <br>
-        <div class="col-6 mx-auto">
-            <video src="assets/media/Cullen's Ecommerce backend.webm" class="img-thumbnail" controls></video>
-            <a href="https://github.com/TheAltoidian/e-commerce-backend/" target="_blank">
-                Ecommerce Backend
-            </a>
-        </div>
-        <br>
-        <div class="col-6 mx-auto">
-            <a href="https://github.com/TheAltoidian/Local-Weather" target="_blank">
-                <img src="assets/media/local-weather.png" alt="Local Weather app" class="img-thumbnail" />
-                Local Weather </a>
-        </div>
-        <br>
-        <div class="col-6 mx-auto">
-            <a href="https://github.com/TheAltoidian/budget-tracker/" target="_blank">
-                <img src="assets/media/budget-tracker.png" alt="Budget tracker app" class="img-thumbnail" />
-                Budget Tracker </a>
-        </div>
-
-        <br>
-
-        <!-- Contact Me -->
-        <section id="Contact_Me" class="container pb-5">
-            <h3>Contact Me</h3>
-            <a href="assets/media/Cullen Casey resume September 2023.docx">My Resume</a>
+    <div class="bg-light">
+        <section id="Past_Work" class="container text-center">
+            <h3>Past Work</h3>
             <br>
-            <a href="mailto:cullenjcasey@gmail.com">cullenjcasey@gmail.com</a>
-        </section>
+            <div class="row">
+                <div class="col-6 mx-auto">
+                    <a class="font-weight-bold" href="https://github.com/TheAltoidian/snake" target="_blank">
+                        <img src="assets/media/snake-game.png" alt="In browser Snake game" class="img-thumbnail" />
+                        Snake </a>
+                    <p class="text-muted">In-browser snake game</p>
+                </div>
+                <br>
+                <div class="col-6 mx-auto">
+                    <a class="font-weight-bold" href="https://github.com/smendoza94/rpg-game" target="_blank">
+                        <img src="assets/media/RPG-Game.png" alt="a screenshot of the RPG-Game page"
+                            class="img-thumbnail" />
+                        RPG Game</a>
+                        <p class="text-muted">In-browser simple RPG where the player fights various monsters and gets stronger</p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-6 mx-auto">
+                    <video src="assets/media/Cullen's Ecommerce backend.webm" class="img-thumbnail" controls></video>
+                    <a class="font-weight-bold" href="https://github.com/TheAltoidian/e-commerce-backend/" target="_blank">
+                        Ecommerce Backend
+                    </a>
+                    <p class="text-muted">Example RESTful API to add to, delete, update, and track a fictional online store</p>
+                </div>
+                <br>
+                <div class="col-6 mx-auto">
+                    <a class="font-weight-bold" href="https://github.com/TheAltoidian/Local-Weather" target="_blank">
+                        <img src="assets/media/local-weather.png" alt="Local Weather app" class="img-thumbnail" />
+                        Local Weather </a>
+                        <p class="text-muted">App tracking weather in cities that the user requests</p>
+                </div>
+            </div>
+            <br>
+            <div class="col-6 mx-auto">
+                <a class="font-weight-bold" href="https://github.com/TheAltoidian/budget-tracker/" target="_blank">
+                    <img src="assets/media/budget-tracker.png" alt="Budget tracker app" class="img-thumbnail" />
+                    Budget Tracker </a>
+                    <p class="text-muted">App to track budget, showing past transactions and a graph of the changes</p>
+            </div>
 
+            <br>
+
+            <!-- Contact Me -->
+            <section id="Contact_Me" class="container pb-5">
+                <h3>Contact Me</h3>
+                <a href="assets/media/Cullen Casey resume.docx">My Resume</a>
+                <br>
+                <a href="mailto:cullenjcasey@gmail.com">cullenjcasey@gmail.com</a>
+            </section>
+    </div>
 </body>
 
 </html>
